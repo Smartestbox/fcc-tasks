@@ -50,7 +50,7 @@ function lookUpProfile(name, prop) {
 
 console.log(lookUpProfile("Kristian", "lastName"));
 
-// ----------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 
 // Basic JS. Task - Generate Random Fractions with JavaScript
 // Change randomFraction to return a random number
@@ -72,7 +72,8 @@ function randomFraction() {
 function randomWholeNum() {
 
 
-  return Math.random();
+  return Math.floor(Math.random() * 10);
 
 }
 
+// ---------------------------------------------------------------------------
