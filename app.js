@@ -50,3 +50,16 @@ console.log(lookUpProfile("Kristian", "lastName"));
 
 // If prop does not correspond to any valid properties of a contact found to match name then return the
 // string No such property.
+
+// ----------------------------------------------------------------------------
+
+// Basic JS. Task - Generate Random Fractions with JavaScript
+
+function randomFraction() {
+
+
+
+  return 0;
+
+
+}
