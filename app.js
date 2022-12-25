@@ -59,7 +59,18 @@ function randomFraction() {
 
 
 
-  return 0;
+  return Math.random();
 
 
+}
+
+// ---------------------------------------------------------------------------
+
+// Basic JS. Task - Generate Random Whole Numbers with JavaScript
+
+function randomWholeNum() {
+
+
+
+  return Math.random();
 }
