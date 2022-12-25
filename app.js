@@ -94,5 +94,16 @@ function randomRange(myMin, myMax) {
 // so it converts the input string str into an integer, and returns it.
 
 function convertToInteger(str) {
-  
+  return parseInt(str);
 }
+
+// ---------------------------------------------------------------------------
+
+// Basic JS. Task - Use the parseInt Function with a Radix
+// Use parseInt() in the convertToInteger function so 
+// it converts a binary number to an integer and returns it.
+
+function convertToInteger(str) {
+
+}
+
