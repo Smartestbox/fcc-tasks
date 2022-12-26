@@ -132,5 +132,9 @@ function checkEqual(a, b) {
 // positive, negative or zero.
 
 function checkSign(num) {
-
+  return num > 0 ? "positive"
+    : num < 0 ? "negative"
+    : "zero"
 }
+
+// ---------------------------------------------------------------------------
