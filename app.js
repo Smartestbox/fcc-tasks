@@ -168,5 +168,11 @@ function countdown(n) {
 // work for cases where both startNum and endNum are the same.
 
 function rangeOfNumbers(startNum, endNum) {
-  return [];
-};
+  if (endNum < startNum) {
+    return [];
+  } else {
+    const numbers = rangeOfNumbers(startNum, endNum - 1);
+    numbers.push(endNum);
+    return numbers;
+  }
+}
