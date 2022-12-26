@@ -147,6 +147,14 @@ function checkSign(num) {
 // the array [5, 4, 3, 2, 1]. Your function must use recursion by calling itself and must not use 
 // loops of any kind.
 
-function countdown(n){
-  return;
+function countdown(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    const arr = countdown(n - 1);
+    arr.unshift(n);
+    return arr;
+  }
 }
+
+// ---------------------------------------------------------------------------
