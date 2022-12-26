@@ -115,5 +115,8 @@ function convertToInteger(str) {
 // return either the string Equal or the string Not Equal.
 
 function checkEqual(a, b) {
-  
+  return a === b ? "Equal" : "Not Equal"
 }
+
+// ---------------------------------------------------------------------------
+
